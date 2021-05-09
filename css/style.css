@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+@media(min-width:768px){
+    body{
+        margin-top: 50px;
+    }
+}
+
+#wrapper{
+    padding-left: 0;    
+}
+
+#page-wrapper{
+    width: 100%;        
+    padding: 0px;
+    background-color: #fff;
+}
+
+@media(min-width:768px){
+    #wrapper{
+        padding-left: 225px;
+    }
+    #page-wrapper{
+        padding: 22px 10px;
+    }
+}
+
+/* Top Navigation */
+
+.top-nav{
+    padding: 0 15px;
+}
+
+.top-nav>li{
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a{
+    padding: 15px;
+    color: #fff;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus{
+    color: #fff;
+    background-color: #1E282C;
+}
+
+.top-nav>.open>.dropdown-menu{
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    padding: 15px auto 10px auto;
+    border-radius: 0px;
+    background-color: #eee;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px){
+    .side-nav{
+        position: fixed;
+        top: 50px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        border-top: 1px #1E282C solid;
+        overflow-y: auto;
+        background-color: #1E282C;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+
+    .side-nav>li>a{
+        width: 225px;
+        padding: 10px;
+        border-bottom: 1px #222 solid;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus{
+        outline: none;
+        background-color: #2266AA !important;
+    }
+}
+
+.side-nav>li>ul{
+    padding: 0;
+    background-color: #ccc;
+    border-bottom: 1px #222 solid;
+}
+
+.side-nav>li>ul>li>a{
+    display: block;
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-nav>li>ul>li>a:hover,
+.side-nav>li>ul>li>a:focus{
+    color: #fff;
+}
+
+.footer{
+  color: #fff;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #1E282C;
+  text-align: center;
+  padding: 3px;
+}
+
+/*Buttons*/
+.btn-login {
+  background-color: #2266AA;
+  color: #fff;
+  font-size: 18px;
+  height: auto;
+  padding: 5px;
+  border-color:#2266AA;
+  border-radius: 0px;
+}
+.btn-login:hover,
+.btn-login:focus {
+  color: #2266AA;
+  background-color: transparent;
+  border-color: #2266AA;
+  border-radius: 0px;
+}
+.btn-normal {
+  background-color: transparent;
+  color: #555;
+  font-size: 18px;
+  height: auto;
+  padding: 5px;
+  border-color:#555;
+  border-radius: 0px;
+}
+.btn-normal:hover,
+.btn-normal:focus {
+  color: #111;
+  background-color: transparent;
+  border-color: #333;
+  border-radius: 0px;
+}
+
+.brdr{
+  border-radius: 0px;
+  border: 1px solid #999;
+}
+
+.brdr:focus{
+  border-radius: 0px;
+  border: 1px solid #777;
+}
+.viewbtn{
+  background-color: #2266AA;
+  color: #fff;
+  border: 1px solid #2266AA;
+  font-size: 15px;
+  padding: 3px 15px 3px 15px;
+  outline: none;
+}
+
+/*Alter Colors Classes*/
+
+.div11{
+  background-color: rgba(34,102,170,0.8);
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  padding: 20px 5px;
+}
+.div12{
+  background-color: rgba(34,102,170,1);
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  padding: 7px 5px;
+  cursor: pointer;
+}
+
+.div21{
+  background-color: rgba(0,166,90,0.8);
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  padding: 20px 5px;
+}
+.div22{
+  background-color: rgba(0,166,90,1);
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  padding: 7px 5px;
+  cursor: pointer;
+}
+.div31{
+  background-color: rgba(243,156,18,0.8);
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  padding: 20px 5px;
+}
+.div32{
+  background-color: rgba(243,156,18,1);
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  padding: 7px 5px;
+  cursor: pointer;
+}
+.div41{
+  background-color: rgba(221,75,57,0.8);
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  padding: 20px 5px;
+}
+.div42{
+  background-color: rgba(221,75,57,1);
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  padding: 7px 5px;
+  cursor: pointer;
+}
